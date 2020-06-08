@@ -1,0 +1,93 @@
+.container {
+  height: 900px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-div {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.landings {
+  font-family: Dancing Script;
+  font-size: 20px;
+  color: white;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.nav-li {
+  margin-right: 35px;
+}
+.nav-a {
+  font-family: Poppins;
+  color: white;
+  font-size: 12px;
+}
+/*End Header*/
+.lorem {
+  text-align: center;
+  margin-top: 300px;
+  font-family: Lato;
+  font-size: 100px;
+  color: white;
+}
+.button-box {
+  text-align: center;
+  margin-top: 110px;
+}
+.button {
+  width: 307px;
+  height: 72px;
+  background-color: #325DFF;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-family: Lato;
+  font-size: 14px;
+  cursor: pointer;
+}
+/*Section 1*/
+.section {
+  height: 600px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.section-div {
+  max-width: 50%;
+  max-height: 100%;
+}
+.section-header {
+  font-size: 50px;
+  padding-left: 90px;
+  padding-right: 80px;
+}
+.section-p {
+  font-size: 16px;
+  margin-top: 30px;
+  padding-left: 90px;
+  padding-right: 80px; 
+}
+.div-image {
+  background-image: url('../img/rectangle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+}
+/*Form*/
+.form-section {
+  padding-top: 50px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+}
